@@ -13,6 +13,9 @@ namespace PaPuti.Controllers
         public IActionResult Index()
         {
             return View();
+        } public IActionResult Search()
+        {
+            return View();
         }
 
         public IActionResult About()
